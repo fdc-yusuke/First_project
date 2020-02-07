@@ -27,6 +27,11 @@
  */
 	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
 /**
+リダイアレクと
+//Router::connect('/Post', array('controller' => 'Post', 'action' => 'yusuke'));
+
+
+
  * ...and connect the rest of 'Pages' controller's URLs.
  */
 	Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
